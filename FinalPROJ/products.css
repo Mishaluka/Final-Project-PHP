@@ -1,0 +1,188 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300,100,700,900);
+:root {
+    --nav-color: #003049;
+    --main-bg-color: #f77f00;
+    --main-button-color: #d62828;
+    --sub-color-one: #fcbf49;
+    --sub-color-two: #eae2b7;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: var(--nav-color);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+/* Change the link color to #111 (black) on hover */
+
+li a:hover {
+    background-color: rgb(240, 240, 240);
+    color: black;
+}
+
+
+/*   Products Page */
+
+.product_page {
+    background-color: #ffffff;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.categories {
+    margin: 80px 0;
+    margin-bottom: 10px;
+}
+
+.col-3 {
+    flex-basis: 30%;
+    min-width: 250px;
+    margin-bottom: 10px;
+}
+
+.col-3 img {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.col-4 {
+    flex-basis: 30%;
+    padding: 10px;
+    min-width: 200px;
+    margin-bottom: 1px;
+    padding-bottom: 50px;
+}
+
+.col-4 img {
+    width: 100%;
+    background-color: var(--nav-color);
+}
+
+.prices {
+    color: black;
+    padding: 50;
+    margin: 0;
+}
+
+.product_title {
+    color: black;
+    padding: 5px;
+    margin: 0;
+}
+
+.product_info {
+    width: 100%;
+    background-color: rgb(213, 213, 213);
+    margin: 0;
+}
+
+.page_titles {
+    text-align: center;
+    margin: 0 auto 80px;
+    position: relative;
+    line-height: 60px;
+    font-size: 2rem;
+    color: black;
+}
+
+.small-container {
+    max-width: 1080px;
+    margin: auto;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+p {
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+
+.main-section {
+    width: 100%;
+    padding: 60px 0;
+    text-align: center;
+    background: #ffffff;
+    color: white;
+}
+
+.container {
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+/*Boostrap base cards*/
+
+.cart-container {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.cards {
+    width: 18rem;
+    background-color: rgb(51, 92, 49);
+    margin-bottom: 5rem;
+}
+
+.container__card {
+    display: flex;
+    justify-content: space-evenly;
+    flex-flow: row wrap;
+}
+
+input[type=Submit] {
+    background-color: #0082c8;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 50%;
+    margin-left: 25%;
+    opacity: 0.9;
+}
+
+input[type=Submit]:hover {
+    opacity: 1;
+}
+
+
+/*new style for for SQL cards*/
+
+.product {
+    border: 1px solid #eaeaec;
+    margin: -1px 19px 3px -1px;
+    padding: 10px;
+    text-align: center;
+    background-color: #efefef;
+}
